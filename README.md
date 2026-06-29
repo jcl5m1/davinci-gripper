@@ -136,6 +136,11 @@ is not a requirement — it was just the direction I was hoping to try.
 
 If you'd like to take this on, open an issue to coordinate.
 
+## Acknowledgements
+
+- Bennett Stirton's [YouTube video](https://www.youtube.com/watch?v=d_8rHKrwr-Q)
+  for some initial thoughts on how to approach this.
+
 ## License
 
 [Apache License 2.0](LICENSE) © 2026 Johnny Lee
