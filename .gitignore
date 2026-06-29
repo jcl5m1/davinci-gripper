@@ -1,0 +1,15 @@
+# WiFi credentials — never commit. Copy secrets.h.example to secrets.h.
+secrets.h
+
+# Arduino / build artifacts
+build/
+*.bin
+*.elf
+*.hex
+
+# macOS
+.DS_Store
+
+# Editor / tooling
+.claude/
+.vscode/
