@@ -114,6 +114,14 @@ This is not strictly necessary for all types of manipulation, but it takes
 advantage of the long gripper design to work in small, constrained spaces
 (e.g., reaching through a narrow port).
 
+**Drivetrain direction (aspirational).** The Onshape starting point aspires to
+drive the joints with **capstan drives**, inspired by
+[Aaed Musa's work](https://www.youtube.com/watch?v=MwIBTbumd1Q). Capstan drives
+look appealing here because the joint rotational axes need only a limited range
+of motion, require reasonably high torque, and have the potential to keep the
+part count low while lowering the mass of both the actuators and the arm. This
+is not a requirement — it was just the direction I was hoping to try.
+
 **References:**
 
 - da Vinci PSM (Si) — reference geometry and labeling, from the
