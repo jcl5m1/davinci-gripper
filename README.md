@@ -96,6 +96,36 @@ Key tuning constants live at the top of `pca9685_webserver/pca9685_webserver.ino
 4. Open the Serial Monitor at **9600 baud** to see the assigned IP address, then
    browse to `http://gripper.local/` (or that IP).
 
+## Open work items / contributing
+
+Contributions are welcome — open an issue or a pull request for new mounts,
+firmware features, or documentation.
+
+### Wanted: a PSM-style remote-center-of-motion (RCM) mount
+
+Help wanted to design a mount that mimics the design choices of the da Vinci
+**Patient Side Manipulator (PSM)** — adding **3+ degrees of freedom** with a
+**remote center of motion (RCM)** at a cannula. An RCM mechanism pivots the
+instrument about a fixed point in space (the cannula / entry port), so the tool
+can pitch, yaw, and insert through a small opening without moving that entry
+point.
+
+This is not strictly necessary for all types of manipulation, but it takes
+advantage of the long gripper design to work in small, constrained spaces
+(e.g., reaching through a narrow port).
+
+**References:**
+
+- da Vinci PSM (Si) — reference geometry and labeling, from the
+  [dVRK documentation](https://dvrk.readthedocs.io/):
+
+  ![da Vinci PSM-Si (dVRK docs)](https://dvrk.readthedocs.io/2.3.0/_images/PSM-Si-white-background-labeled.png)
+
+- A very crude Onshape starting point (WIP):
+  [Onshape — PSM-style RCM mount](https://cad.onshape.com/documents/a3ec289cccf8708e735107ff/w/74646be029774eebe42ef8fe/e/347869fce4c2d85b4819669a?renderMode=0&uiState=6a4217cf8db66ff7a59e2012)
+
+If you'd like to take this on, open an issue to coordinate.
+
 ## License
 
 [Apache License 2.0](LICENSE) © 2026 Johnny Lee
