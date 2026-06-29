@@ -5,6 +5,13 @@ Arduino firmware for driving a da Vinci–style surgical gripper wrist with a
 The main sketch hosts a small WiFi web app with sliders to control the wrist
 and jaws from a phone or laptop.
 
+## Mechanical design (CAD)
+
+<!-- CAD image goes here once added: ![Gripper mount CAD](docs/gripper-mount.png) -->
+
+The gripper mount is designed in Onshape:
+**[Onshape document — gripper mount](https://cad.onshape.com/documents/358ff1c0a006d7d34f0976ca/w/5407c1ceec2ad6f4e7318f8d/e/27201691492a085cdc850b61?renderMode=0&uiState=6a4214acfa5e5c9ed559e53d)**
+
 ## Hardware
 
 - Wemos D1 mini (ESP8266)
@@ -24,14 +31,11 @@ and jaws from a phone or laptop.
 Servos connect to PCA9685 channels 12–15; power the servo rail (V+) from a
 suitable 5 V source.
 
-## Sketches
+## Firmware
 
-| Sketch | Purpose |
-|--------|---------|
-| `blink/` | Board/toolchain sanity check. |
-| `i2c_scan/` | Scans the I²C bus and prints found device addresses (the PCA9685 shows up at `0x40`). |
-| `pca9685_oscillate/` | Sweeps servo channels through their range — a quick servo/wiring test. |
-| `pca9685_webserver/` | **Main app:** WiFi web UI to control the gripper. |
+The firmware lives in [`pca9685_webserver/`](pca9685_webserver/) — a WiFi web
+server that hosts the slider UI and drives the servos. See [Setup](#setup) to
+build and flash it.
 
 ## Channel map & control scheme (`pca9685_webserver`)
 
