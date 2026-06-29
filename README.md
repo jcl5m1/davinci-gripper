@@ -121,8 +121,10 @@ advantage of the long gripper design to work in small, constrained spaces
 
   ![da Vinci PSM-Si (dVRK docs)](https://dvrk.readthedocs.io/2.3.0/_images/PSM-Si-white-background-labeled.png)
 
-- A very crude Onshape starting point (WIP):
-  [Onshape — PSM-style RCM mount](https://cad.onshape.com/documents/a3ec289cccf8708e735107ff/w/74646be029774eebe42ef8fe/e/347869fce4c2d85b4819669a?renderMode=0&uiState=6a4217cf8db66ff7a59e2012)
+- A very crude Onshape starting point (WIP) —
+  [open in Onshape](https://cad.onshape.com/documents/a3ec289cccf8708e735107ff/w/74646be029774eebe42ef8fe/e/347869fce4c2d85b4819669a?renderMode=0&uiState=6a4217cf8db66ff7a59e2012):
+
+  <img src="docs/psm-mount-wip.png" alt="PSM-style RCM mount — Onshape WIP" width="280">
 
 If you'd like to take this on, open an issue to coordinate.
 
