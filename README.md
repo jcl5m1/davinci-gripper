@@ -7,7 +7,7 @@ and jaws from a phone or laptop.
 
 ## Mechanical design (CAD)
 
-<!-- CAD image goes here once added: ![Gripper mount CAD](docs/gripper-mount.png) -->
+<img src="docs/gripper-mount.png" alt="Gripper mount CAD" width="320">
 
 The gripper mount is designed in Onshape:
 **[Onshape document — gripper mount](https://cad.onshape.com/documents/358ff1c0a006d7d34f0976ca/w/5407c1ceec2ad6f4e7318f8d/e/27201691492a085cdc850b61?renderMode=0&uiState=6a4214acfa5e5c9ed559e53d)**
